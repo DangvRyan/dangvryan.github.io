@@ -362,9 +362,13 @@ h2 {
     margin: auto;
 }
 
+.show, .about, .contact, .port {
+    padding: 0em;
+}
+
 .portcont {
     grid-template-rows: 1fr;
-    padding: 2em 1em;
+    padding: 2em 0em;
 }
 
 .gallery {
@@ -392,6 +396,10 @@ h2 {
 
 #adobe, #shell {
     display: none
+}
+
+.fit {
+    width: 90%;
 }
 
 .footcont {
