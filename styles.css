@@ -50,7 +50,6 @@ p {
 }
 
 li {
-    list-style: none;
     white-space: nowrap;
 }
 
@@ -107,6 +106,8 @@ hr {
 }
 
 .navbar ul {
+    list-style: none;
+    padding: 0;
     display: flex;
 }
 
@@ -209,7 +210,7 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 0.8em;
+    font-size: 0.9em;
     color: #636363;
     list-style: none;
     margin: 0em 0.5em;
@@ -291,7 +292,7 @@ span {
 @media only screen and (max-width: 768px) {
 
 hr {
-    width: 80%;
+    width: 400px;
 }
 
 h1 {
@@ -362,9 +363,8 @@ h2 {
 }
 
 .portcont {
-    grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    padding: 2em 0em;
+    padding: 2em 1em;
 }
 
 .gallery {
@@ -402,7 +402,11 @@ h2 {
 }
 
 .footcont li {
-    margin: 0.5em auto;
+    margin: 1em auto;
+}
+
+.footcont li img {
+    display: none;
 }
 
 .btn {
