@@ -13,7 +13,7 @@ body, html{
     scroll-behavior: smooth;
     min-height: 100vh;
     width: 100%;
-    overflow-x: visible;
+    overflow-x: hidden;
 }
 
 .wrapper {
@@ -152,10 +152,10 @@ hr {
 }
 
 .porttext {
-    grid-column: 2 / 3;
+    grid-column: 2;
     padding: 0em 1em;
     margin-top: 1em;
-    width: 100vw;
+    width: auto;
 }
 
 #shell, #adobe, #irl {
@@ -294,12 +294,13 @@ span {
 
 @media only screen and (max-width: 768px) {
 
+
 hr {
     width: 25em;
 }
 
 .header {
-    padding: 0em 1em;
+    padding: 0em 2em;
 }
 
 .headcont {
@@ -361,14 +362,14 @@ hr {
 }
 
 .portcont {
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     padding: 2em 0em;
 }
 
 .gallery {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    width: 100vw;
-    gap: 0.5em;
+    width: 95vw;
 }
 
 .gallery img {
