@@ -13,7 +13,7 @@ body, html{
     scroll-behavior: smooth;
     min-height: 100vh;
     width: 100%;
-    overflow-x: hidden;
+    overflow-x: visible;
 }
 
 .wrapper {
@@ -369,6 +369,7 @@ h2 {
 
 .gallery {
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    width: 100vw;
     gap: 0.5em;
 }
 
