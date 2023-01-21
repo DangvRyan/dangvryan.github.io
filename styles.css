@@ -155,6 +155,7 @@ hr {
     grid-column: 2 / 3;
     padding: 0em 1em;
     margin-top: 1em;
+    width: 100vw;
 }
 
 #shell, #adobe, #irl {
@@ -295,11 +296,6 @@ span {
 
 hr {
     width: 25em;
-}
-
-h2 {
-    width: 100%;
-    white-space: wrap;
 }
 
 .header {
