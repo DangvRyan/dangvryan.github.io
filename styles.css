@@ -80,6 +80,7 @@ hr {
     justify-content: center;
     align-items: center;
     list-style: none;
+    padding: 0;
 }
 
 .nav_btn {
@@ -213,6 +214,7 @@ hr {
     font-size: 0.9em;
     color: #636363;
     list-style: none;
+    padding: 0;
     margin: 0em 0.5em;
 
 }
