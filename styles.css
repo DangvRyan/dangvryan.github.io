@@ -206,6 +206,7 @@ hr {
     justify-content: space-around;
     align-items: center;
     margin: 0em 5em 0em 0em;
+    padding: 0;
 }
 
 .footcont li {
