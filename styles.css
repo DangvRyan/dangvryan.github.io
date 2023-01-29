@@ -123,7 +123,7 @@ hr {
     background-size: cover;
     background-position: center center;
     margin: 0em auto;
-    padding: 0em 1em;
+    padding: 3em 1em;
 }
 
 .show {
@@ -146,7 +146,6 @@ hr {
     display: grid;
     grid-template-columns: 1fr 71em 1fr;
     grid-template-rows: 1fr 1fr 0.5fr 1fr;
-    padding: 10em 0em;
     width: 100%;
     margin: auto;
 }
