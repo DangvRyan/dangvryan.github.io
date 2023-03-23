@@ -145,7 +145,6 @@ hr {
 .portcont {
     display: grid;
     grid-template-columns: 1fr 71em 1fr;
-    grid-template-rows: 1fr 1fr 0.5fr 1fr;
     width: 100%;
     margin: auto;
 }
@@ -177,11 +176,12 @@ hr {
 
 .gallery img {
     display: inline-block;
+    background-color: #f26524;
     border-radius: 20px;
     margin: 0.5em;
     height: 100px;
     width: 100px;
-    border: 5px solid #f26524;
+    border: 6px solid #f26524;
     transition: 0.2s ease;
 }
 
