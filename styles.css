@@ -339,6 +339,14 @@ span {
 
 @media only screen and (max-width: 768px) {
 
+    h1 {
+        color: #efefef;
+        font-size: 4.5em;
+        text-align: left;
+        line-height: 1.2em;
+        margin: 0.5em 0em;
+        white-space: normal;
+    }
 
 hr {
     width: 25em;
@@ -474,7 +482,7 @@ hr {
 }
 
 .btn {
-    margin: 0em 1em 1em 0em;
+    margin: 2em 1em 1em 0em;
 }
 
 }
