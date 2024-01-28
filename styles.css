@@ -164,16 +164,13 @@ hr {
     animation: slideinfrombot 0.5s ease;
 }
 
-#shell {
-    margin-left: 4em;
-}
 
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
     grid-column: 2;
     grid-gap: 2em;
-    max-width: 100vw;
+    max-width: 95vw;
 }
 
 .desc {
