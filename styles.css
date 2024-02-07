@@ -232,6 +232,18 @@ hr {
 
 }
 
+.footcont li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9em;
+    color: #636363;
+    list-style: none;
+    padding: 0;
+    margin: 0em 0.5em;
+
+}
+
 .footcont li img {
     margin-right: 0.5em;
 }
