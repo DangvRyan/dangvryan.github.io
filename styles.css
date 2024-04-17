@@ -120,13 +120,13 @@ hr {
     display: flex;
     align-items: center;
     min-height: calc(100vh - 200px);
-    height: 100%;
+    height: auto;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     margin: 0em auto;
-    padding: 3em 1em;
+    padding: 0em;
 }
 
 .show {
@@ -159,11 +159,16 @@ hr {
 }
 
 #shell, #adobe, #irl {
-    width: 100%;
+    width: 80%;
     height: auto;
     animation: slideinfrombot 0.5s ease;
+   
 }
 
+#irl {
+    position: relative;
+    left: 5em;
+}
 
 .gallery {
     display: grid;
