@@ -1,12 +1,12 @@
 @font-face {
-    src: url(fonts/Lato-Regular.ttf);
-    font-family: lato;
+    src: url(assets/fonts/Lato-Regular.ttf);
+    font-family: Lato;
 }
 
 body, html{
     margin: 0em;
     padding: 0em;
-    font-family: lato;
+    font-family: Lato;
     font-size: calc(12px + 0.2vw);
     line-height: calc(1.5px +0.3vw);
     letter-spacing: 1px;
@@ -40,8 +40,12 @@ h1 {
 
 h2 {
     color: #efefef;
-    font-size: 3.75em;
+    font-size: 3em;
     margin: 0em;
+}
+
+h3 {
+    font-size: 1.8em; 
 }
 
 p {
@@ -73,10 +77,14 @@ hr {
 
 .headcont {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin: 0em auto;
-    width: 100vw;
+    margin: 0em;
+    width: 100%;
+}
+
+.logo {
+    padding: 0em 2em;
 }
 
 .nav {
@@ -101,9 +109,10 @@ hr {
 }
 
 .nav_btn:hover {
-    color: #efefef;
-    border: 4px #00514f solid;
-    background-color: #00514f;
+    color: #00514f;
+    transform: scale(110%);
+    /* border: 4px #00514f solid;
+    background-color: #00514f; */
 }
 
 .hamburger {
@@ -127,6 +136,58 @@ hr {
     background-position: center center;
     margin: 0em auto;
     padding: 0em 2em;
+}
+
+/* Blog */
+
+.hero {
+    min-height: 40vh;
+    width: 100vw;
+}
+
+.blog {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    text-align: left;
+    margin: 1em;
+}
+
+.blogthumb {
+    max-height: 100%;
+    max-width: 20em;
+    margin: 0;
+}
+
+.blog p {
+    color: black;
+}
+
+.flex-thumb{
+    display: flex;
+    margin: 1em;
+    max-height: 20em;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    text-align:start;
+    margin-left: 1em;
+    margin-right: 2em;
+    overflow: hidden;
+}
+
+.flex-col {
+    font-size: 0.9em;
+}
+
+.margin {
+    position: relative;
+    display: block;
+    text-align: right;
+    margin: 0em auto;
+
 }
 
 .show {
@@ -229,7 +290,7 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 0.9em;
+    font-size: 1.2em;
     color: #636363;
     list-style: none;
     padding: 0;
@@ -313,6 +374,7 @@ span {
     justify-content: center;
     align-items: center;
 }
+
 
 .container {
     max-width: 80em;
@@ -464,6 +526,14 @@ hr {
     padding: 1em;
 }
 
+
+.blog {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    text-align: left;
+    margin: 1em;
+}
 
 .container {
     display: flex;
