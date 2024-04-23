@@ -1,12 +1,12 @@
 @font-face {
+    font-family: "lato";
     src: url(assets/fonts/Lato-Regular.ttf);
-    font-family: Lato;
 }
 
 body, html{
     margin: 0em;
     padding: 0em;
-    font-family: Lato;
+    font-family: "lato", sans-serif;
     font-size: calc(12px + 0.2vw);
     line-height: calc(1.5px +0.3vw);
     letter-spacing: 1px;
