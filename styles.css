@@ -207,7 +207,6 @@ hr {
     background-image: url(assets/backgrounds/bg_port.png);
     display: grid;
     grid-template-columns: 1fr 71em 1fr;
-    margin: auto;
 }
 
 .porttext {
@@ -238,6 +237,7 @@ hr {
     grid-column: 2;
     grid-gap: 2em;
     max-width: 95vw;
+    margin: 2em 0em;
 }
 
 .desc {
