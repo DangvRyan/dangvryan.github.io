@@ -208,6 +208,7 @@ hr {
     display: grid;
     grid-template-columns: 1fr 71em 1fr;
     margin: auto;
+    padding-bottom: 2em;
 }
 
 .porttext {
