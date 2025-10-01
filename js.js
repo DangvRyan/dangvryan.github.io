@@ -1,6 +1,7 @@
 document.querySelector('.logo').addEventListener('mouseover', changeimage);
 document.querySelector('.logo').addEventListener('mouseout', changeimage2);
 
+/*
 function changeimage() {
    let image= document.querySelector('.logo').src = 'assets/logo2.png';
 }
@@ -8,6 +9,7 @@ function changeimage() {
 function changeimage2() {
     let image= document.querySelector('.logo').src = 'assets/logo1.png';
 }
+*/
 
 function setupRollover() {
     var images = document.querySelectorAll('.roll');
