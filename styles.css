@@ -196,10 +196,12 @@ hr {
     background-image: url(assets/backgrounds/bg_home.png);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding-bottom: 5em;
 }
 
 .showspan {
     grid-column-start: 2;
+    margin-top: 3em;
 }
 
 .showspan2 {
@@ -234,9 +236,10 @@ hr {
 }
 
 #shell, #adobe, #irl {
-    width: 80%;
+    width: 100%;
     height: auto;
     animation: slideinfrombot 0.5s ease;
+    margin: 0em 0em 0em 0em;
    
 }
 
@@ -246,12 +249,20 @@ hr {
 }
 
 .gall {
-    grid-column-start: 1;
-    grid-column-end: 6;
-    margin: 0em;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    margin-top: 4em;
     padding: 0em;
-    display: flex;
+    display: inline-grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: auto;
+    grid-gap: 1em;
 }
+
+.gall a {
+    margin: 0em;
+}
+
 
 .gall img {
     width: 100%;
@@ -283,11 +294,6 @@ hr {
     text-decoration: none;
 }
 
-.spec {
-    background-image: url(assets/backgrounds/bg_about.png);
-}
-
-
 .gallery img {
     width: 100%;
     height: auto;
@@ -299,6 +305,9 @@ hr {
 }
 */
 
+.spec {
+    background-image: url(assets/backgrounds/bg_about.png);
+}
 
 .footer {
     min-height: 100px;
@@ -507,7 +516,7 @@ hr {
 }
 
 .navbar.active {
-    height: 224px;
+    height: 180px;
 }
 
 .navbar.active ul {
