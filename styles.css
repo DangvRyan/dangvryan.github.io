@@ -253,7 +253,7 @@ hr {
     margin-top: 4em;
     padding: 0em;
     display: inline-grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     grid-template-rows: auto;
     grid-gap: 1em;
 }
@@ -424,7 +424,6 @@ span {
     width: 100%;
     height: 100%;
     padding: 0em;
-    margin-bottom: 2em;
 }
 
 .span {
