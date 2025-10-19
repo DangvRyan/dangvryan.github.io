@@ -193,7 +193,7 @@ hr {
 }
 
 .show {
-    background-image: url(assets/backgrounds/bg_home.png);
+    background-image: url(assets/backgrounds/bg_about.png);
     display: inline-grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     padding-bottom: 5em;
@@ -268,6 +268,55 @@ hr {
     margin: 0em;
     padding: 0em;
     border: 0;
+}
+
+/* Gallery Title Rollovers */
+
+.cat {
+  position: relative;
+  width: auto;
+  height: 100%;
+  background-color: black;
+}
+
+.roll {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .3s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+
+
+.cat:hover .roll {
+  opacity: 0.1;
+}
+
+.cat:hover .middle {
+  opacity: 1;
+}
+
+.text {
+
+  color: white;
+  font-size: 3em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 /*
@@ -392,12 +441,20 @@ span {
     transition: 0.2s ease;
 }
 
+.tab {
+    margin: 0em;
+}
+
 .btn:hover span {
     width: 100%;
 }
 
 .btn img {
     margin-right: 0.6em;
+}
+
+.window {
+    margin-left: 0.5em;
 }
 
 .grid {
@@ -417,6 +474,10 @@ span {
     align-items: center;
 }
 
+.left {
+    align-items: flex-start;
+    justify-content: flex-start;
+}
 
 .container {
     max-width: 80em;
