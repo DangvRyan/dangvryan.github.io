@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Ryan Dang Graphic Design Portfolio Website Homepage</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="lightbox.css">
 </head>
 <body>
     <wrapper>
@@ -57,7 +58,7 @@
                 </p>
                 <a  href="https://dangvryan.github.io/varfont" class="btn tab span flex" target="_blank" aria-label="Indoor Kid, opens a new window"><span></span>Click to Open in a New Tab<img alt="New Window" class="window" src="assets/icon_window.png"></a>
 
-                <img class="portpics span" src="assets/portpics/web1.jpg">
+                <a href="assets/portpics/web1.jpg" data-lightbox="web1" class="span"><img class="portpics" src="assets/portpics/web1.jpg"></a>
 
                 <a href="index.html#anchor" class="btn wide"><span></span>Back to portfolio</a>
             </div>
@@ -80,6 +81,9 @@
 
     </wrapper>
 
+
+<script src="lightbox-plus-jquery.js">
+</script>
 <script src="js.js">
 </script>
 

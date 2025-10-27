@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Ryan Dang Graphic Design Portfolio Website Homepage</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="lightbox.css">
 </head>
 <body>
     <wrapper>
@@ -42,8 +43,7 @@
             <div class="container grid">
                 <div class="span">
                     <h1>
-                        Typography
-                        <br> Studies
+                        Typography Studies
                     </h1>
                     <hr size="4" width="450px" color="#fff">
                 </div>
@@ -55,10 +55,10 @@
                     <br>Illustrator, InDesign
                     <br>2023
                 </p>
-                <img class="portpics" src="assets/portpics/alum1.jpg">
-                <img class="portpics" src="assets/portpics/alum2.png">
-                <img class="portpics" src="assets/portpics/alum3.jpg">
-                <img class="portpics" src="assets/portpics/alum4.png">
+                <a href="assets/portpics/alum1.jpg" data-lightbox="type1"><img class="portpics" src="assets/portpics/alum1.jpg"></a>
+                <a href="assets/portpics/alum2.png" data-lightbox="type1"><img class="portpics" src="assets/portpics/alum2.png"></a>
+                <a href="assets/portpics/alum3.jpg" data-lightbox="type1"><img class="portpics" src="assets/portpics/alum3.jpg"></a>
+                <a href="assets/portpics/alum4.png" data-lightbox="type1"><img class="portpics" src="assets/portpics/alum4.png"></a>
 
                 <h2 class="span">
                     ION Typeface Brochure
@@ -67,25 +67,26 @@
                     <br>Illustrator, InDesign
                     <br>2023
                 </p>
-                <img class="portpics" src="assets/portpics/type1.png">
-                <img class="portpics" src="assets/portpics/type2.png">
+                <a href="assets/portpics/type1.png" data-lightbox="type2"><img class="portpics" src="assets/portpics/type1.png"></a>
+                <a href="assets/portpics/type2.png" data-lightbox="type2"><img class="portpics" src="assets/portpics/type2.png"></a>
                 
+                <h2 class="span">ION: Process Documentation</h2>
                 <p class="span">Inspiration and experimentation based on Lego's Bionicle&trade; toy property. 
                 </p>
                 
-                <img class="portpics" src="assets/portpics/type3.jpg">
-                <img class="portpics" src="assets/portpics/type4.jpg">
-                <img class="portpics span" src="assets/portpics/letters1.jpg">
+                <a href="assets/portpics/type3.jpg" data-lightbox="type2"><img class="portpics" src="assets/portpics/type3.jpg"></a>
+                <a href="assets/portpics/type4.jpg" data-lightbox="type2"><img class="portpics" src="assets/portpics/type4.jpg"></a>
+                <a href="assets/portpics/letters1.jpg" data-lightbox="type2" class="span"><img class="portpics span" src="assets/portpics/letters1.jpg"></a>
 
                 <p class="span">Brochure layout progression focused on creative implementation of custom letters and positive and negative space.
                 </p>
-                <img class="portpics" src="assets/portpics/type5.jpg">
-                <img class="portpics" src="assets/portpics/type6.jpg">
+                <a href="assets/portpics/type5.jpg" data-lightbox="type2"><img class="portpics" src="assets/portpics/type5.jpg"></a>
+                <a href="assets/portpics/type6.jpg" data-lightbox="type2"><img class="portpics" src="assets/portpics/type6.jpg"></a>
                 
                  <p class="span">Digital brochure layouts, finalizing layouts, informational hierarchy, and text.
                 </p>
-                <img class="portpics" src="assets/portpics/type7.jpg">
-                <img class="portpics" src="assets/portpics/type8.jpg">
+                <a href="assets/portpics/type7.jpg" data-lightbox="type2"><img class="portpics" src="assets/portpics/type7.jpg"></a>
+                <a href="assets/portpics/type8.jpg" data-lightbox="type2"><img class="portpics" src="assets/portpics/type8.jpg"></a>
 
                 
 
@@ -109,6 +110,8 @@
 
     </wrapper>
 
+<script src="lightbox-plus-jquery.js">
+</script>
 <script src="js.js">
 </script>
 

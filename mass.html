@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Ryan Dang Graphic Design Portfolio Website Homepage</title>
     <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="lightbox.css">
 </head>
 <body>
     <wrapper>
@@ -55,10 +56,10 @@
                     <br>Illustrator, InDesign, Photoshop
                     <br>2022
                 </p>
-                <img class="portpics" src="assets/portpics/mass1.jpg">
-                <img class="portpics" src="assets/portpics/mass2.jpg">
-                <img class="portpics" src="assets/portpics/mass3.png">
-                <img class="portpics" src="assets/portpics/mass4.png">
+                <a href="assets/portpics/mass1.jpg" data-lightbox="mass1"><img class="portpics" src="assets/portpics/mass1.jpg"></a>
+                <a href="assets/portpics/mass2.jpg" data-lightbox="mass1"><img class="portpics" src="assets/portpics/mass2.jpg"></a>
+                <a href="assets/portpics/mass3.png" data-lightbox="mass1"><img class="portpics" src="assets/portpics/mass3.png"></a>
+                <a href="assets/portpics/mass4.png" data-lightbox="mass1"><img class="portpics" src="assets/portpics/mass4.png"></a>
 
                 <a href="index.html#anchor" class="btn wide"><span></span>Back to portfolio</a>
             </div>
@@ -81,6 +82,8 @@
 
     </wrapper>
 
+<script src="lightbox-plus-jquery.js">
+</script>
 <script src="js.js">
 </script>
 

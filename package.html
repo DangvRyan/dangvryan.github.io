@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Ryan Dang Graphic Design Portfolio Website Homepage</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="lightbox.css">
 </head>
 <body>
     <wrapper>
@@ -54,9 +55,9 @@
                     <br>Illustrator, InDesign, Photoshop
                     <br>2023
                 </p>
-                <img class="portpics span" src="assets/portpics/top1.jpg">
-                <img class="portpics" src="assets/portpics/top2.jpg">
-                <img class="portpics" src="assets/portpics/top3.jpg">
+                <a href="assets/portpics/top1.jpg" data-lightbox="pack1" class="span"><img class="portpics span" src="assets/portpics/top1.jpg"></a>
+                <a href="assets/portpics/top2.jpg" data-lightbox="pack1"><img class="portpics" src="assets/portpics/top2.jpg"></a>
+                <a href="assets/portpics/top3.jpg" data-lightbox="pack1"><img class="portpics" src="assets/portpics/top3.jpg"></a>
 
                 <h2 class="span">
                     Portfolio Mail-in
@@ -65,8 +66,7 @@
                     <br>Illustrator, Photoshop, Poster Paper
                     <br>2022
                 </p>
-                <img class="portpics span" src="assets/portpics/port1.png">
-
+                <a href="assets/portpics/port1.png" data-lightbox="pack2" class="span"><img class="portpics span" src="assets/portpics/port1.png"></a>
                 <h2 class="span">
                     Asthmatic CD Packaging
                 </h2>
@@ -74,9 +74,8 @@
                     <br>InDesign, Photoshop
                     <br>2023
                 </p>
-                <img class="portpics" src="assets/portpics/asthma1.jpg">
-                <img class="portpics" src="assets/portpics/asthma2.jpg">
-                <img class="portpics span" src="assets/portpics/asthma3.png">
+                <a href="assets/portpics/asthma1.jpg" data-lightbox="pack3"><img class="portpics" src="assets/portpics/asthma1.jpg"></a>
+                <a href="assets/portpics/asthma2.jpg" data-lightbox="pack3"><img class="portpics" src="assets/portpics/asthma2.jpg"></a>
 
                 <a href="index.html#anchor" class="btn wide"><span></span>Back to portfolio</a>
             </div>
@@ -98,6 +97,8 @@
 
     </wrapper>
 
+<script src="lightbox-plus-jquery.js">
+</script>
 <script src="js.js">
 </script>
 

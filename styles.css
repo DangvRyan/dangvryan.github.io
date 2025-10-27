@@ -36,6 +36,7 @@ h1 {
     text-align: left;
     line-height: 1.2em;
     margin: 0.5em 0em;
+    margin-bottom: 0em;
     white-space: nowrap;
 }
 
@@ -43,6 +44,7 @@ h2 {
     color: #efefef;
     font-size: 3em;
     margin: 0em;
+    margin-top: 0em;
 }
 
 h3 {
@@ -253,7 +255,7 @@ hr {
     margin-top: 4em;
     padding: 0em;
     display: inline-grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-template-rows: auto;
     grid-gap: 1em;
 }
