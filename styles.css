@@ -457,6 +457,7 @@ span {
 
 .window {
     margin-left: 0.5em;
+    height: 20px;
 }
 
 .grid {
